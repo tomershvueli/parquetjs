@@ -4,7 +4,7 @@ fully asynchronous, pure node.js implementation of the Parquet file format
 
 [![Build Status](https://travis-ci.org/ZJONSSON/parquetjs.png?branch=master)](http://travis-ci.org/ZJONSSON/parquetjs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/parquetjs-lite.svg)](https://badge.fury.io/js/parquetjs-lite)
+[![npm version](https://badge.fury.io/js/fast-parquet.svg)](https://badge.fury.io/js/fast-parquet)
 
 This package contains a fully asynchronous, pure JavaScript implementation of
 the [Parquet](https://parquet.apache.org/) file format. The implementation conforms with the
@@ -22,10 +22,10 @@ Installation
 To use parquet.js with node.js, install it using npm:
 
 ```
-  $ npm install parquetjs-lite
+  $ npm install fast-parquet
 ```
 
-_parquet.js requires node.js >= 7.6.0_
+_fast-parquet requires node.js >= 10.6.0_
 
 
 Usage: Writing files
@@ -59,7 +59,7 @@ compression.
 
 Once we have a schema, we can create a `ParquetWriter` object. The writer will
 take input rows as JSON objects, convert them to the Parquet format and store
-them on disk. 
+them on disk.
 
 ``` js
 // create new ParquetWriter that writes to 'fruits.parquet`
@@ -128,7 +128,7 @@ let reader = await parquet.ParquetReader.openUrl(request,'https://domain/fruits.
 ### Reading data from S3
 
 Parquet files can be read from an S3 object without having to download the whole file.
-You will have to supply the aws-sdk client as first argument and the bucket/key information 
+You will have to supply the aws-sdk client as first argument and the bucket/key information
 as second argument to the function `parquetReader.openS3`.
 
 ``` js
@@ -215,7 +215,7 @@ with a nested field, omit the `type` in the column definition and add a `fields`
 list instead:
 
 Consider this example, which allows us to store a more advanced "fruits" table
-where each row contains a name, a list of colours and a list of "stock" objects. 
+where each row contains a name, a list of colours and a list of "stock" objects.
 
 ``` js
 // advanced fruits table
@@ -372,4 +372,3 @@ PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIG
 HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
