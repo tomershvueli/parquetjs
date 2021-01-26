@@ -2,7 +2,7 @@
 
 fully asynchronous, pure node.js implementation of the Parquet file format
 
-[![Build Status](https://travis-ci.org/ZJONSSON/parquetjs.png?branch=master)](http://travis-ci.org/ZJONSSON/parquetjs)
+![Build Status](https://github.com/gumlet/parquetjs/workflows/node-test/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/fast-parquet.svg)](https://badge.fury.io/js/fast-parquet)
 
