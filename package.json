@@ -1,10 +1,10 @@
 {
-  "name": "parquetjs",
+  "name": "fast-parquet",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
-  "version": "0.8.0",
-  "homepage": "https://github.com/ironSource/parquetjs",
-  "author": "ironSource <npm@ironsrc.com>",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gumlet/parquetjs",
+  "author": "Aditya Patadia <aditya@gumlet.com",
   "license": "MIT",
   "keywords": [
     "dremel",
@@ -12,18 +12,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ironSource/parquetjs.git"
+    "url": "git://github.com/gumlet/parquetjs.git"
   },
   "dependencies": {
     "bson": "^2.0.4",
-    "int53": "^0.2.4",
-    "lzo": "^0.4.0",
-    "object-stream": "0.0.1",
-    "snappy": "^0.6.0",
-    "thrift": "^0.10.0",
+    "int53": "^1.0.0",
+    "lzo": "^0.4.11",
+    "snappy": "^6.3.5",
+    "thrift": "^0.13.0",
     "varint": "^5.0.0"
   },
   "devDependencies": {
+    "object-stream": "0.0.1",
     "chai": "^4.1.2",
     "mocha": "^3.5.3"
   },
@@ -31,6 +31,6 @@
     "test": "mocha"
   },
   "engines": {
-    "node": ">=7.6"
+    "node": ">=10.6"
   }
 }
