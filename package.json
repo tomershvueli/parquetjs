@@ -15,17 +15,17 @@
     "url": "git://github.com/gumlet/parquetjs.git"
   },
   "dependencies": {
-    "bson": "^2.0.4",
+    "bson": "^4.2",
     "int53": "^1.0.0",
     "lzo": "^0.4.11",
     "snappy": "^6.3.5",
-    "thrift": "^0.13.0",
-    "varint": "^5.0.0"
+    "thrift": "0.13.0-hotfix.1",
+    "varint": "^6.0.0"
   },
   "devDependencies": {
     "object-stream": "0.0.1",
     "chai": "^4.1.2",
-    "mocha": "^3.5.3"
+    "mocha": "^8.2.1"
   },
   "scripts": {
     "test": "mocha"
