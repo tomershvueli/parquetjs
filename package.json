@@ -4,7 +4,7 @@
   "main": "parquet.js",
   "version": "1.0.0",
   "homepage": "https://github.com/gumlet/parquetjs",
-  "author": "Aditya Patadia <aditya@gumlet.com",
+  "author": "Aditya Patadia <aditya@gumlet.com>",
   "license": "MIT",
   "keywords": [
     "dremel",
@@ -14,6 +14,10 @@
     "type": "git",
     "url": "git://github.com/gumlet/parquetjs.git"
   },
+  "files": [
+    "lib",
+    "gen-nodejs"
+  ],
   "dependencies": {
     "bson-ext": "^2.0.5",
     "int53": "^1.0.0",
@@ -23,6 +27,7 @@
     "varint": "^6.0.0"
   },
   "devDependencies": {
+    "csv-parser": "^3.0.0",
     "object-stream": "0.0.1",
     "chai": "^4.1.2",
     "mocha": "^8.2.1"
