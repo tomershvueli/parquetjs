@@ -15,7 +15,6 @@
     "url": "git://github.com/gumlet/parquetjs.git"
   },
   "dependencies": {
-    "bson": "^4.2",
     "bson-ext": "^2.0.5",
     "int53": "^1.0.0",
     "lzo": "^0.4.11",
