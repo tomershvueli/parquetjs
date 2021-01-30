@@ -2,7 +2,7 @@
   "name": "fast-parquet",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/gumlet/parquetjs",
   "author": "Aditya Patadia <aditya@gumlet.com>",
   "license": "MIT",
