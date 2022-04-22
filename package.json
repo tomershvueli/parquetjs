@@ -21,8 +21,8 @@
   "dependencies": {
     "bson-ext": "^4.0.2",
     "int53": "^1.0.0",
-    "snappy": "^6.3.5",
-    "thrift": "0.13.0-hotfix.1",
+    "snappy": "^7.1.1",
+    "thrift": "0.16.0",
     "varint": "^6.0.0"
   },
   "devDependencies": {
